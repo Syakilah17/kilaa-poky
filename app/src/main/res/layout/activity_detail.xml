@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFC0C9"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="POCKY STRAWBERRY"
+            android:textAlignment="center"
+            android:textColor="#AD1457"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.026" />
+
+        <ImageView
+            android:id="@+id/imgSnack"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pockystrawbery"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.181" />
+
+        <TextView
+            android:id="@+id/tvAdDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Bahagiakan harimu dengan manisnya stik biskuit berlapis krim stroberi yang renyah, lezat, dan tidak bikin berantakan!"
+            android:textAlignment="center"
+            android:textColor="#880E4F"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.524" />
+
+        <TextView
+            android:id="@+id/tvNutritionTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Komposisi Gizi (Informasi Nilai Gizi per 45g / 1 sajian)"
+            android:textColor="#C2185B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636" />
+
+        <TextView
+            android:id="@+id/tvNutritionDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="4dp"
+            android:text="• Energi / Kalori: 220 kkal\n• Lemak Total: 10 g\n• Karbohidrat Total: 31 g\n• Gula: 9 g\n• Protein: 3 g\n• Natrium: 0 mg"
+            android:textColor="#C2185B"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.904" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
