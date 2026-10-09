@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFE4E1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang Pocky"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#C2185B"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pocky adalah stik biskuit berlapis krim lezat produksi Glico. Pertama kali diperkenalkan di Jepang pada tahun 1966 dan menjadi camilan favorit di seluruh dunia."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#880E4F"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnBukaWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Website Pocky" />
+
+</LinearLayout>
