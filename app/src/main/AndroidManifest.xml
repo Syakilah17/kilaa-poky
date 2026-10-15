@@ -15,7 +15,7 @@
         android:theme="@style/Theme.Kilapocky"
         tools:targetApi="31">
 
-        <!-- 1. SplashActivity: Peluncur Utama Aplikasi -->
+        <!-- SplashActivity sebagai Peluncur Utama -->
         <activity
             android:name=".kl_pocky.SplashActivity"
             android:exported="true"
@@ -26,24 +26,22 @@
             </intent-filter>
         </activity>
 
-        <!-- 2. Halaman Login -->
+        <!-- Halaman Login -->
         <activity
             android:name=".kl_pocky.LoginActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
 
-        <!-- 3. Halaman Utama (Main) -->
+        <!-- Halaman Utama (Main) tempat Bottom Navigation & Fragment berada -->
         <activity
             android:name=".kl_pocky.MainActivity"
             android:exported="false" />
 
-        <!-- 4. Halaman Profil Developer -->
+        <!-- Activity Tambahan -->
         <activity
             android:name=".kl_pocky.ProfileActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
-        <!-- 5. Halaman Fitur Lainnya -->
         <activity
             android:name=".kl_pocky.DetailActivity"
             android:exported="false" />
